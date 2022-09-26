@@ -1,23 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+// import Contador from "./components/Contador";
+// import Eventos from "./components/Eventos";
+// import Parrafo from "./components/Parrafo";
+// import Variables from "./components/Variables";
+//import Lista from "./components/Lista";
+import Form from "./components/Form";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <h1>Hola mundo React</h1>
+      {/* <Parrafo/>
+      <Variables/>
+      <Eventos/>
+      <Contador></Contador> 
+      <Lista/>*/}
+      <Form/>
     </div>
   );
 }
